@@ -1,8 +1,8 @@
 class Genre
 
 
-  @@all = [] 
+  @@all = []
   def initialize(genre)
     @genre = genre
   end 
-end 
+end
