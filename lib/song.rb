@@ -1,5 +1,5 @@
 
 
-def Song 
+def Song
 
   attr_accessor :artist , :genre 
