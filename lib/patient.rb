@@ -19,7 +19,7 @@ class Patient
   end
 
   def patients
-    Appointment.all.map {|a| a.patient if a.patient == self  }
+    Appointment.all.map {|a| a.doctor if a.patient == self  }
   end
 
 end
