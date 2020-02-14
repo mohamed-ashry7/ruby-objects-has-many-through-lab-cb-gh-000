@@ -1,6 +1,6 @@
 class Genre
 
-  attr_accessor :genre
+  attr_accessor :name
 
   @@all = []
   def initialize(genre)
