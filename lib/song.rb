@@ -9,3 +9,6 @@ def Song
     @name = name
     @genre = genre
     @@all << self
+  end 
+
+end 
